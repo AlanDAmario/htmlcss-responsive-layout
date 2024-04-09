@@ -4,3 +4,136 @@
     box-sizing: border-box;
 }
 
+footer{
+    background-color:  #333333;
+}
+/* LAYOUT */
+
+/* ***MENU*** */
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+.col-50-mobile{
+    width:calc(100% / 2);
+}
+
+/* ***INTRO*** */
+.col-100-mobile{
+    width: 100%;
+    height: 500px;
+    margin: 2rem 0;
+}
+.intro .col-100-mobile{
+    background-color: #B5DDFF;
+}
+
+/* ***PLANNING*** */
+.planning .col-100-mobile{
+    border: 1px solid black;
+}
+.col-100-mobile .bg-white{
+    background-color: white;
+}
+
+.bg-violet .container{
+    padding: 2.6rem 0;
+}
+
+/* TESTIMONIALS */
+.testimonials{
+    margin-bottom: 3.5rem;
+}
+.testimonials .container{
+    padding: 0.6rem 0;
+}
+
+
+/* BENEFITS */
+
+.about-us{
+    margin: 2rem 0;
+}
+
+.col-100-text{
+    width: 100%;
+    height: 100px;
+}
+
+.card{
+    width: 80%;
+    margin: 1rem auto;
+    height: 200px;
+    border: 1px solid black;
+}
+
+.text-card{
+    width: 80%;
+    margin: 1rem auto;
+    height: 200px;
+    border: 1px solid black;
+}
+
+/* ABOUT US */
+
+
+/* FOOTER */
+.footer .col-100-mobile{
+    margin: 0;
+}
+/* UTILITIES */
+.border{
+    border: 1px solid black;
+}
+
+.radius{
+    border-radius: 20px;
+}
+.flex{
+    display: flex;
+}
+
+.wrap{
+    flex-wrap: wrap;
+}
+
+.column{
+    flex-direction: column;
+}
+.bg-light-blue{
+    background-color: #0084FD;
+}
+
+.col-50-mobile .logo img{
+    width: 3.5rem;
+    margin: 0.5rem 0;
+}
+
+.hamburgher{
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.logo-menu{
+    color: white;
+}
+
+.bg-violet{
+    background: #9792E4;
+}
+
+.bg-white{
+    background-color: white;
+}
+
+.bg-black{
+    background: #333333;
+}
+
+.footer .border{
+    border: 1px solid white;
+}
+
+@media screen and (min-width: 768) {
+    
+}
