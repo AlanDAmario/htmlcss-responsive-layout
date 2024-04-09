@@ -79,7 +79,7 @@ footer{
 
 /* FOOTER */
 .footer .col-100-mobile{
-    margin: 0;
+    margin: 0px;
 }
 /* UTILITIES */
 .border{
@@ -134,6 +134,53 @@ footer{
     border: 1px solid white;
 }
 
-@media screen and (min-width: 768) {
+
+/* RESPONSIVE */
+
+
+
+@media screen and (min-width: 768px) {
+
+    /*  INTRO */
+    .col-100-mobile{
+        margin: 2rem 5px;
+    }
+    .intro .col-100-mobile:first-child {
+        width: calc(100% / 3 * 2 - 10px);
+    }
+    .intro .col-100-mobile {
+        width: calc(100% / 3 - 10px );
+    }
     
+    
+    /* TESTIMONIALS */
+    .card{
+        margin: 1rem 1.3rem;
+    }
+
+    .text-card{
+        margin: 1rem 1.3rem;
+    }
+    .testimonials .card{
+        width: 30%
+    }
+    .testimonials .text-card{
+        width: 56%
+    }
+    
+    /* BENEFITS */
+    .benefits .col-100-mobile{
+        margin: 2rem 10px;
+    }
+    
+    .benefits .col-100-mobile{
+        width: calc(100% / 2 - 20px);
+    }
+
+    /* ABOUT-US */
+    
+    .about-us .col-100-mobile{
+        margin: 2rem 5px;
+        width: calc(100% / 2 - 10px );
+    }
 }
