@@ -135,7 +135,7 @@ footer{
 }
 
 
-/* RESPONSIVE */
+/* RESPONSIVE TABLET */
 
 
 
@@ -178,9 +178,27 @@ footer{
     }
 
     /* ABOUT-US */
-    
+
     .about-us .col-100-mobile{
         margin: 2rem 5px;
         width: calc(100% / 2 - 10px );
+    }
+}
+
+
+/* RESPONSIVE DEKSTOP */
+
+@media screen and (min-width: 1160px) {
+    /* PLANNING */
+    .planning .col-100-mobile{
+        margin: 2rem 10px;
+        width: calc(100% / 2 - 20px)
+    }
+
+    /* BENEFITS */
+
+    .benefits .col-100-mobile{
+        margin: 2rem 10px;
+        width: calc(100% / 3 - 20px);
     }
 }
