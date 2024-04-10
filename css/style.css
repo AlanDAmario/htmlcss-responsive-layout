@@ -93,6 +93,18 @@ footer{
     padding: 2.6rem 0;
 }
 
+.planning-content img{
+    width: 100%;
+}
+
+.planning-text{
+    color: white;
+}
+
+.planning-text h2{
+    text-align: center;
+    margin: 20px 0;
+}
 /* TESTIMONIALS */
 .testimonials{
     margin-bottom: 3.5rem;
@@ -210,13 +222,7 @@ footer{
         margin: 5px;
     }
     
-    .col-left{
-        width: 50%;
-    }
-
-    .col-right{
-        width: 50%;
-    }
+    
     .intro .col-100-mobile:first-child {
         width: calc(100% / 3 * 2 - 10px);
     }
@@ -224,15 +230,18 @@ footer{
         width: calc(100% / 3 - 10px );
     }
     
+    .col-right{
+        width: 50%;
+    }
+    .intro img{
+        transform: translate(0, 4px);
+    }
     .intro .row-mobile{
         margin-top: 51px;
         padding-bottom: 101px;
     }
 
-    .font-file{
-        font-size: 80px;
-        margin-bottom: 33px;
-        color: #0084FD;
+    .intro-content .font-file{
         display: flex;
         align-items: center;
         justify-content: center;
@@ -300,6 +309,26 @@ footer{
         padding: 7px 10px;
         border-radius: 20px;
     }
+
+     /* INTRO */
+    .intro .col-txt-img {
+        display: flex;
+    }
+
+    .intro .col-txt-img .col-left,
+    .intro .col-txt-img .col-right {
+        width: 50%;
+    }
+    .intro img{
+        width: 80%;
+        transform: translate(0, 110px);
+    }
+    .font-file{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
     /* PLANNING */
     .planning .col-100-mobile{
         margin: 2rem 10px;
