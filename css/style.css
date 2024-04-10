@@ -3,7 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
 footer{
     background-color:  #333333;
 }
@@ -21,13 +23,64 @@ footer{
 /* ***INTRO*** */
 .col-100-mobile{
     width: 100%;
-    height: 500px;
     margin: 2rem 0;
 }
 .intro .col-100-mobile{
     background-color: #B5DDFF;
 }
 
+.intro-content h2{
+    color: #0084FD;
+    font-size: 27px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.intro-content{
+    padding: 40px 40px 0 40px;
+}
+.intro-content .text-left{
+    color: #5A6E7F;
+    text-align: left;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.intro-content button{
+    color: white;
+    background-color: #0084FD;
+    border: none;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 10px 50px;
+}
+
+.intro-content .apple{
+    margin-left: 20%;
+}
+
+.intro-img img{
+    width: 100%;
+    margin-top: 40px;
+    transform: translate(0, 5px);
+}
+
+.font-file{
+    font-size: 80px;
+    margin-bottom: 33px;
+    color: #0084FD;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.intro-content .text-center{
+    color: #5A6E7F;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
 /* ***PLANNING*** */
 .planning .col-100-mobile{
     border: 1px solid black;
@@ -86,6 +139,9 @@ footer{
     border: 1px solid black;
 }
 
+.padding-bottom{
+    margin-right: 10px;
+}
 .menu-dekstop li{
     display: none;
 }
@@ -151,8 +207,15 @@ footer{
     /*  INTRO */
     .col-100-mobile{
         width: 100%;
-        height: 500px;
         margin: 5px;
+    }
+    
+    .col-left{
+        width: 50%;
+    }
+
+    .col-right{
+        width: 50%;
     }
     .intro .col-100-mobile:first-child {
         width: calc(100% / 3 * 2 - 10px);
@@ -166,6 +229,14 @@ footer{
         padding-bottom: 101px;
     }
 
+    .font-file{
+        font-size: 80px;
+        margin-bottom: 33px;
+        color: #0084FD;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
     /* TESTIMONIALS */
     .card{
         margin: 1rem 1.3rem;
@@ -203,7 +274,7 @@ footer{
 
 @media screen and (min-width: 1160px) {
     .container{
-        max-width: 60%;
+        max-width: 1140px;
     }
     /* MENU */
     .menu-mobile .logo-menu{
